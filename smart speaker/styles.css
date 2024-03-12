@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    height: 100vh;
+    background-color: #04656c;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    height: 15vh;
+    width: 95%;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    width: 30%;
+    justify-content: space-around;
+}
+header ul img{
+    height: 2rem;
+}
+header ul li{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+ .underlined:hover{
+    text-decoration: underline;
+ }
+
+/*  main part*/
+main{
+    display: flex;
+    height: 85%;
+    font-family: 'Roboto';
+}
+main .left{
+    width: 35%;
+}
+main .left{
+    display: grid;
+    grid-template-rows: 70% auto;
+}
+
+
+/* main left top part */
+
+main .left h1{
+    font-family: 'Loto';
+    font-size: 5rem;
+}
+main .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+main .top p{
+    writing-mode: vertical-lr;
+    margin-right: 3rem;
+}
+
+/*  main left bottom part*/
+ main .bottom{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.limited{
+    background-color: #212121;
+    color: white;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    writing-mode: vertical-lr;
+    top: -30%;
+}
+.bottom p{
+    font-size: 1.3rem;
+
+}
+.bottom h2{
+    font-size: 2rem;
+}
+
+
+/* main right part*/
+main .right .topright{
+    display: flex;   
+}
+main .right{
+    display: grid;
+    grid-template-rows: 75% auto;
+    align-items: center;
+    width: 65%;
+}
+main .right .a{
+    margin-left: 6rem;
+}
+main .right .a img{
+    height: 25rem;
+    filter: drop-shadow(12px 12px 7px #ff5757 );
+}
+main .right .topright .b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    align-items: center;
+}
+main .right .topright .b h2{
+    font-size: 3rem;
+}
+main .right .topright .b ul{
+    list-style: none;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+
+/* main right bottom */
+main .right .bottom1 p{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 1.3rem;
+    width: 90%;
+}
